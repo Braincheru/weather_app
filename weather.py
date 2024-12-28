@@ -11,7 +11,7 @@ API_KEY = "06c921750b9a82d8f5d1294e1586276f"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # Major Cities List for Dropdown
-CITIES = ['New York', 'London', 'Tokyo', 'Paris', 'Sydney', 'Mumbai', 'Berlin', 'Cape Town']
+CITIES = ['Nairobi', 'Kisumu', 'Mombasa', 'Eldoret', 'Kericho', 'Nakuru', 'Isiolo', 'Narok']
 
 def fetch_weather_data(city):
     params = {'q': city, 'appid': API_KEY}
